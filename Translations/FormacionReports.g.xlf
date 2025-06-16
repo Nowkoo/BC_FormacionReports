@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="FormacionReports">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2197625232 - Field 684242166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Parameters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field Parameters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2197625232 - Field 957894085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ReportId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field ReportId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2197625232 - Field 3207102784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UserId</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field UserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 1755720091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECDifference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field ECDifference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 3325630803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ECPct</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field ECPct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 2892191201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field VATAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 2053170918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATBaseAmount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field VATBaseAmount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 294305740 - Field 1721266264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VATPct</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field VATPct - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Daily Customer Order Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel BillingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel CompanyInformationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel CustomerLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel DateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel DocumentLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EC Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ECAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EC %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ECPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount including VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineAmountIncludingVATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDiscountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDiscountPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LinePriceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineQuantityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel NumberLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total amount including VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalAmountIncludingVATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalDiscountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalQuantityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total VAT amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalVATAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total VAT base amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalVATBaseAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT base amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATBaseAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter by Customer and Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - Control 270295271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control SelectedCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 693914455 - Control 1781946743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control SelectedDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3332899200 - Action 1576320584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Daily Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Sales Order List - Action DailyOrders - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
