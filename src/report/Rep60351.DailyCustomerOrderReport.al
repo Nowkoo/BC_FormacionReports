@@ -13,10 +13,7 @@ report 60351 "Daily Customer Order Report"
         {
             DataItemTableView = sorting("Primary Key");
 
-            column(Name; Name)
-            {
-
-            }
+            column(Name; Name) { }
             column(Name_2; "Name 2")
             {
 
@@ -487,14 +484,49 @@ report 60351 "Daily Customer Order Report"
                     until SalesLine.Next() = 0;
             until TemporaryHeaderValues.Next() = 0;
 
+        //GroupLines(TemporaryLineValues);
     end;
 
-
-
-    local procedure IsSameSalesLine(SalesLine1: Record "Sales Line";
-        SalesLine2: Record "Sales Line"): Boolean
+    local procedure GroupLines(var TemporaryLineValues: Record "Sales Line")
+    var
+        GroupedLines: Record "Sales Line" temporary;
     begin
-        exit((SalesLine1."Document Type" = SalesLine2."Document Type") and (SalesLine1."No." = SalesLine2."No.") and (SalesLine1."Line No." = SalesLine2."Line No."))
+        if TemporaryLineValues.FindSet() then
+            repeat
+                if GroupedLines.FindSet() then
+                    repeat
+                        if not IsSameSalesLine(TemporaryLineValues, GroupedLines) then begin
+                            if IsSameGroup(TemporaryLineValues, GroupedLines) then begin
+                                GroupedLines.Quantity += TemporaryLineValues.Quantity;
+                                GroupedLines."Line Discount Amount" += TemporaryLineValues."Line Discount Amount";
+                                GroupedLines.Amount += TemporaryLineValues.Amount;
+                                GroupedLines."Amount Including VAT" += TemporaryLineValues."Amount Including VAT";
+                                GroupedLines.Modify();
+                            end
+                            else begin
+                                GroupedLines.TransferFields(TemporaryLineValues);
+                                GroupedLines.Insert();
+                            end;
+                        end;
+                    until GroupedLines.Next() = 0;
+            until TemporaryLineValues.Next() = 0;
+
+        TemporaryLineValues.Reset();
+        if GroupedLines.FindSet() then
+            repeat
+                TemporaryLineValues.TransferFields(GroupedLines);
+                TemporaryLineValues.Insert();
+            until GroupedLines.Next() = 0;
+    end;
+
+    local procedure IsSameGroup(SalesLine1: Record "Sales Line"; SalesLine2: Record "Sales Line"): Boolean
+    begin
+        exit((SalesLine1."No." = SalesLine2."No.") and (SalesLine1."Line Discount %" = SalesLine2."Line Discount %") and (SalesLine1."VAT %" = SalesLine2."VAT %"))
+    end;
+
+    local procedure IsSameSalesLine(SalesLine1: Record "Sales Line"; SalesLine2: Record "Sales Line"): Boolean
+    begin
+        exit((SalesLine1."Document Type" = SalesLine2."Document Type") and (SalesLine1."Document No." = SalesLine2."Document No.") and (SalesLine1."Line No." = SalesLine2."Line No."))
     end;
 
     //iva|base imponible|importe iva|re|importe re
