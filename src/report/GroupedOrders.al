@@ -44,11 +44,20 @@ report 60352 "Grouped Orders"
 
                     //mirar si en tempsalesline hay ya líneas para el mismo producto que tengan el mismo vat % y discount %
                     //si las hay, modificar. Si no, insertar
+                    TempSalesLineBuffer.SetRange("No.", SalesLine."No.");
+                    if TempSalesLineBuffer.FindFirst() and (TempSalesLineBuffer."VAT %" = SalesLine."VAT %") and (TempSalesLineBuffer."Line Discount %" = SalesLine."Line Discount %") then begin
+                        TempSalesLineBuffer.Quantity += SalesLine.Quantity;
+                        TempSalesLineBuffer."Line Discount Amount" += SalesLine."Line Discount Amount";
+                        TempSalesLineBuffer.Amount += SalesLine.Amount;
+                        TempSalesLineBuffer.Modify();
+                    end else begin
+                        TempSalesLineBuffer := SalesLine;
+                        TempSalesLineBuffer."Document No." := SalesHeader."Sell-to Customer No.";
+                        TempSalesLineBuffer."Line No." := NextLineNo;
+                        TempSalesLineBuffer.Insert();
+                    end;
 
-                    TempSalesLineBuffer := SalesLine;
-                    TempSalesLineBuffer."Document No." := SalesHeader."Sell-to Customer No.";
-                    TempSalesLineBuffer."Line No." := NextLineNo;
-                    TempSalesLineBuffer.Insert();
+
                 end;
             }
 
@@ -287,8 +296,6 @@ report 60352 "Grouped Orders"
                     TotalQuantity += TempSalesLineBuffer.Quantity;
                     TotalDiscountAmount += TempSalesLineBuffer."Line Discount Amount";
                     TotalAmountExcludingVAT += TempSalesLineBuffer.Amount;
-
-
                 end;
             }
 
