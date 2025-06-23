@@ -102,7 +102,7 @@
         </trans-unit>
         <trans-unit id="Report 693914455 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
           <source>EC Amount</source>
-          <target>RE</target>
+          <target>Importe RE</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ECAmountLbl</note>
         </trans-unit>
@@ -416,7 +416,7 @@
         </trans-unit>
         <trans-unit id="Report 2503963269 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT amount</source>
-          <target>Importe</target>
+          <target>Importe IVA</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel VATAmountLbl</note>
         </trans-unit>

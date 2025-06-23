@@ -1,17 +1,10 @@
-report 60352 "Grouped Orders"
+/* report 60352 "Grouped Orders"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultRenderingLayout = GroupedOrder;
     WordMergeDataItem = IntegerHeader;
 
-    /*
-        sales header (agrupa pedidos cambiando el doc no a cust no)
-            sales lines (recorre sales line de ese sales header y las añade a temp cambiando el lineno)
-        
-        integer header (recorre pedidos agrupados)
-            integer lines (recorre líneas del pedido agrupado)
-    */
 
     dataset
     {
@@ -21,37 +14,6 @@ report 60352 "Grouped Orders"
             PrintOnlyIfDetail = true;
             DataItemTableView = where("Document Type" = const(Order));
 
-            dataitem(SalesLine; "Sales Line")
-            {
-                DataItemTableView = where("Document Type" = const(Order));
-
-                trigger OnPreDataItem()
-                begin
-                    SalesLine.SetFilter("Document No.", SalesHeader."No.");
-                    TempSalesLineBuffer.Reset();
-                    //TempSalesLineBuffer.DeleteAll();
-                end;
-
-                trigger OnAfterGetRecord()
-                var
-                    NextLineNo: Integer;
-                begin
-                    TempSalesLineBuffer.SetFilter("Document No.", SalesHeader."Sell-to Customer No.");
-                    if TempSalesLineBuffer.FindLast() then
-                        NextLineNo := TempSalesLineBuffer."Line No." + 10000
-                    else
-                        NextLineNo := 10000;
-
-                    //mirar si en tempsalesline hay ya líneas para el mismo producto que tengan el mismo vat % y discount %
-                    //si las hay, modificar. Si no, insertar
-
-                    TempSalesLineBuffer := SalesLine;
-                    TempSalesLineBuffer."Document No." := SalesHeader."Sell-to Customer No.";
-                    TempSalesLineBuffer."Line No." := NextLineNo;
-                    TempSalesLineBuffer.Insert();
-                end;
-            }
-
             trigger OnPreDataItem()
             begin
                 TempSalesHeaderBuffer.Reset();
@@ -59,6 +21,8 @@ report 60352 "Grouped Orders"
             end;
 
             trigger OnAfterGetRecord()
+            var
+                SalesPost: Codeunit "Sales-Post";
             begin
                 TempSalesHeaderBuffer.SetRange("No.", SalesHeader."Sell-to Customer No.");
                 if not TempSalesHeaderBuffer.FindFirst() then begin
@@ -215,6 +179,35 @@ report 60352 "Grouped Orders"
             {
             }
 
+            dataitem(SalesLine; "Sales Line")
+            {
+                DataItemTableView = where("Document Type" = const(Order));
+
+                trigger OnPreDataItem()
+                begin
+                    SalesLine.SetFilter("Document No.", TempSalesHeaderBuffer."Operation Description 2");
+                    TempSalesLineBuffer.Reset();
+                    TempSalesLineBuffer.DeleteAll();
+                end;
+
+                trigger OnAfterGetRecord()
+                var
+                    NextLineNo: Integer;
+                begin
+                    TempSalesLineBuffer.SetFilter("Document No.", TempSalesHeaderBuffer."No.");
+                    if TempSalesLineBuffer.FindLast() then
+                        NextLineNo := TempSalesLineBuffer."Line No." + 10000
+                    else
+                        NextLineNo := 10000;
+
+                    if not TempSalesLineBuffer.Get("Document Type"::Order, SalesLine."Document No.", SalesLine."Line No.") then begin
+                        TempSalesLineBuffer := SalesLine;
+                        TempSalesLineBuffer."Document No." := TempSalesHeaderBuffer."No.";
+                        TempSalesLineBuffer."Line No." := NextLineNo;
+                        TempSalesLineBuffer.Insert();
+                    end
+                end;
+            }
 
             dataitem(IntegerLine; Integer)
             {
@@ -268,13 +261,7 @@ report 60352 "Grouped Orders"
                 trigger OnPreDataItem()
                 begin
                     TempSalesLineBuffer.Reset();
-                    TempSalesLineBuffer.SetRange("Document No.", TempSalesHeaderBuffer."No.");
-                    TempSalesLineBuffer.FindSet();
                     SetRange(Number, 1, TempSalesLineBuffer.Count);
-
-                    TotalQuantity := 0;
-                    TotalDiscountAmount := 0;
-                    TotalAmountExcludingVAT := 0;
                 end;
 
                 trigger OnAfterGetRecord()
@@ -287,8 +274,6 @@ report 60352 "Grouped Orders"
                     TotalQuantity += TempSalesLineBuffer.Quantity;
                     TotalDiscountAmount += TempSalesLineBuffer."Line Discount Amount";
                     TotalAmountExcludingVAT += TempSalesLineBuffer.Amount;
-
-
                 end;
             }
 
@@ -325,14 +310,13 @@ report 60352 "Grouped Orders"
                 }
 
                 trigger OnPreDataItem()
+                var
+                    SalesHeader: Record "Sales Header" temporary;
+
                 begin
                     VATAmountLine.DeleteAll();
                     TempSalesLineBuffer.CalcVATAmountLines(0, TempSalesHeaderBuffer, TempSalesLineBuffer, VATAmountLine);
                     TempSalesLineBuffer.UpdateVATOnLines(0, TempSalesHeaderBuffer, TempSalesLineBuffer, VATAmountLine);
-
-                    TotalVATBase := 0;
-                    TotalVATAmount := 0;
-                    TotalAmountIncludingVAT := 0;
                 end;
 
                 trigger OnAfterGetRecord()
@@ -468,4 +452,5 @@ report 60352 "Grouped Orders"
         TotalQuantity: Integer; //suma Quantity
         TotalDiscountAmount: Decimal; //suma Line Discount Amount
         TotalAmountExcludingVAT: Decimal; //suma de Amount
-}
+} 
+*/
