@@ -529,9 +529,6 @@ report 60351 "Daily Customer Order Report"
         exit((SalesLine1."Document Type" = SalesLine2."Document Type") and (SalesLine1."Document No." = SalesLine2."Document No.") and (SalesLine1."Line No." = SalesLine2."Line No."))
     end;
 
-    //iva|base imponible|importe iva|re|importe re
-    //total base imponible, total iva+re total importe con iva
-
 
     protected var
         TemporaryHeaderValues: Record "Sales Header" temporary;
