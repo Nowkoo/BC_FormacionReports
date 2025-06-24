@@ -397,6 +397,7 @@ report 60352 "Grouped Orders"
                 FormatAddr.SalesHeaderShipTo(ShipToAddr, CustAddr, TempSalesHeaderBuffer);
                 if SellToContact.Get(TempSalesHeaderBuffer."Sell-to Contact No.") then;
                 FormatDocument.SetPaymentMethod(PaymentMethod, TempSalesHeaderBuffer."Payment Method Code", TempSalesHeaderBuffer."Language Code");
+                CompanyInfo.CalcFields(Picture)
             end;
         }
     }
