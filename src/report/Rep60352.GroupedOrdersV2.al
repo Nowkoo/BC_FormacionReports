@@ -1,4 +1,4 @@
-/* report 60352 "Grouped Orders"
+report 60352 "Grouped Orders V2"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -452,5 +452,4 @@
         TotalQuantity: Integer; //suma Quantity
         TotalDiscountAmount: Decimal; //suma Line Discount Amount
         TotalAmountExcludingVAT: Decimal; //suma de Amount
-} 
-*/
+}

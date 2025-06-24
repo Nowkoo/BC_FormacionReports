@@ -3,21 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="FormacionReports">
     <body>
       <group id="body">
-        <trans-unit id="Table 2197625232 - Field 684242166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Parameters</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field Parameters - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2197625232 - Field 957894085 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>ReportId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field ReportId - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 2197625232 - Field 3207102784 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>UserId</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table Report Parameters - Field UserId - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 294305740 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -48,315 +33,500 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Temporary VAT Values - Field VATPct - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Daily Customer Order Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
           <source>Billing address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel BillingAddressLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel BillingAddressLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company information</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel CompanyInformationLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel CompanyInformationLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel CustomerLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel CustomerLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel DateLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel DateLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel DocumentLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel DocumentLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
           <source>EC Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ECAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel ECAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
           <source>EC %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ECPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel ECPercentageLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount including VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineAmountIncludingVATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineAmountIncludingVATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDescriptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineDescriptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDiscountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineDiscountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineDiscountPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineDiscountPercentageLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineNoLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineNoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LinePriceLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LinePriceLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cantidad</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel LineQuantityLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel LineQuantityLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel NumberLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel NumberLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Method</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel PaymentMethodLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel PaymentMethodLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipping address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel ShippingAddressLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel ShippingAddressLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total amount including VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalAmountIncludingVATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalAmountIncludingVATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalDiscountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalDiscountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalQuantityLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalQuantityLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total VAT amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalVATAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalVATAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total VAT base amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel TotalVATBaseAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel TotalVATBaseAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel VATAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT base amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATBaseAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel VATBaseAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel VATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - ReportLabel VATPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - ReportLabel VATPercentageLbl</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
           <source>Teaching tip title</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - RequestPage RequestOptionsPage - Property AboutTitle</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - RequestPage RequestOptionsPage - Property AboutTitle</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
           <source>Teaching tip content</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - RequestPage RequestOptionsPage - Property AboutText</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - RequestPage RequestOptionsPage - Property AboutText</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filter by Customer and Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control GroupName - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - Control GroupName - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - Control 270295271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - Control 270295271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control SelectedCustomer - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - Control SelectedCustomer - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 693914455 - Control 1781946743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1227781208 - Control 1781946743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Daily Customer Order Report - Control SelectedDate - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V1 - Control SelectedDate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
           <source>Billing address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel BillingAddressLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel BillingAddressLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
           <source>Company information</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel CompanyInformationLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel CompanyInformationLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel CustomerLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel CustomerLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel DateLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel DateLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel DocumentLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel DocumentLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
           <source>EC Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel ECAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel ECAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
           <source>EC %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel ECPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel ECPercentageLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount including VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineAmountIncludingVATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineAmountIncludingVATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
           <source>Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineDescriptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineDescriptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineDiscountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineDiscountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineDiscountPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineDiscountPercentageLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineNoLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineNoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
           <source>Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LinePriceLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LinePriceLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cantidad</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel LineQuantityLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel LineQuantityLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
           <source>Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel NumberLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel NumberLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Method</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel PaymentMethodLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel PaymentMethodLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipping address</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel ShippingAddressLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel ShippingAddressLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total amount including VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalAmountIncludingVATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalAmountIncludingVATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalDiscountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalDiscountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalQuantityLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalQuantityLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total VAT amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalVATAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalVATAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total VAT base amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel TotalVATBaseAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel TotalVATBaseAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel VATAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel VATAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT base amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel VATBaseAmountLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel VATBaseAmountLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel VATLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel VATLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2503963269 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 1865477825 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders - ReportLabel VATPercentageLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V2 - ReportLabel VATPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Grouped Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportDataItem 2156531793 - Method 72583909 - NamedType 2123294738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To generate a daily order select a date first.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportDataItem SalesHeader - Method OnPreDataItem - NamedType selectDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1959390393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel BillingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 2376313835" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company information</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel CompanyInformationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 76061626" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel CustomerLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1542941690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel DateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 4058751071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel DocumentLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3263437900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EC Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel ECAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 569901480" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EC %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel ECPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 927117686" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount including VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineAmountIncludingVATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1067596300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3939475470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3437798555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineDiscountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3641331843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineDiscountPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1741068139" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LinePriceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 4193197465" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cantidad</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel LineQuantityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3112345243" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel NumberLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1955618618" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel ShippingAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1750730178" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total amount including VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalAmountIncludingVATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1370894183" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalDiscountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3286358509" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalQuantityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1308046429" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1584922537" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total VAT amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalVATAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 3467789894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total VAT base amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel TotalVATBaseAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 301924975" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel VATAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 4278919372" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT base amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel VATBaseAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 2617756395" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel VATLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - ReportLabel 1532992371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT %</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - ReportLabel VATPercentageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - RequestPage 2516438534 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip title</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - RequestPage RequestOptionsPage - Property AboutTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - RequestPage 2516438534 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Teaching tip content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - RequestPage RequestOptionsPage - Property AboutText</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - Control 4105281732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter by Customer and Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - Control 270295271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - Control SelectedCustomer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2503174442 - Control 1781946743 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Grouped Orders V3 - Control SelectedDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3332899200 - Action 1576320584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
           <source>Daily Orders</source>

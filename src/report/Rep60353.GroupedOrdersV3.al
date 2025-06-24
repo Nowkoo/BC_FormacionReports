@@ -1,5 +1,6 @@
-report 60352 "Grouped Orders"
+report 60353 "Grouped Orders V3"
 {
+    Caption = 'Grouped Orders';
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
     DefaultRenderingLayout = GroupedOrder;
@@ -17,13 +18,12 @@ report 60352 "Grouped Orders"
     {
         dataitem(SalesHeader; "Sales Header")
         {
-            RequestFilterFields = "Document Date";
             PrintOnlyIfDetail = true;
-            DataItemTableView = where("Document Type" = const(Order));
+            DataItemTableView = sorting("Document Date") where("Document Type" = const(Order));
 
             dataitem(SalesLine; "Sales Line")
             {
-                DataItemTableView = where("Document Type" = const(Order));
+                DataItemTableView = sorting("Document No.") where("Document Type" = const(Order));
 
                 trigger OnPreDataItem()
                 begin
@@ -36,7 +36,9 @@ report 60352 "Grouped Orders"
                 var
                     NextLineNo: Integer;
                 begin
+                    TempSalesLineBuffer.Reset();
                     TempSalesLineBuffer.SetFilter("Document No.", SalesHeader."Sell-to Customer No.");
+
                     if TempSalesLineBuffer.FindLast() then
                         NextLineNo := TempSalesLineBuffer."Line No." + 10000
                     else
@@ -51,20 +53,29 @@ report 60352 "Grouped Orders"
                         TempSalesLineBuffer.Amount += SalesLine.Amount;
                         TempSalesLineBuffer.Modify();
                     end else begin
+                        TempSalesLineBuffer.Init();
                         TempSalesLineBuffer := SalesLine;
                         TempSalesLineBuffer."Document No." := SalesHeader."Sell-to Customer No.";
                         TempSalesLineBuffer."Line No." := NextLineNo;
                         TempSalesLineBuffer.Insert();
                     end;
-
-
                 end;
             }
 
             trigger OnPreDataItem()
+            var
+                selectDateLbl: Label 'To generate a daily order select a date first.';
             begin
                 TempSalesHeaderBuffer.Reset();
                 TempSalesHeaderBuffer.DeleteAll();
+
+                if not (SelectedCustomer = '') then
+                    SalesHeader.SetRange("Sell-to Customer No.", SelectedCustomer);
+
+                if not (Format(SelectedDate) = '') then
+                    SalesHeader.SetRange("Document Date", SelectedDate)
+                else
+                    Error(selectDateLbl);
             end;
 
             trigger OnAfterGetRecord()
@@ -397,8 +408,50 @@ report 60352 "Grouped Orders"
                 FormatAddr.SalesHeaderShipTo(ShipToAddr, CustAddr, TempSalesHeaderBuffer);
                 if SellToContact.Get(TempSalesHeaderBuffer."Sell-to Contact No.") then;
                 FormatDocument.SetPaymentMethod(PaymentMethod, TempSalesHeaderBuffer."Payment Method Code", TempSalesHeaderBuffer."Language Code");
-                CompanyInfo.CalcFields(Picture)
+                CompanyInfo.CalcFields(Picture);
+
+                CurrReport.NewPage();
             end;
+        }
+    }
+
+    requestpage
+    {
+        AboutTitle = 'Teaching tip title';
+        AboutText = 'Teaching tip content';
+        SaveValues = true;
+
+        layout
+        {
+            area(Content)
+            {
+                group(GroupName)
+                {
+                    Caption = 'Filter by Customer and Date';
+                    field(SelectedCustomer; SelectedCustomer)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Customer';
+                        TableRelation = Customer;
+                    }
+                    field(SelectedDate; SelectedDate)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Date';
+                    }
+                }
+            }
+        }
+
+        actions
+        {
+            area(processing)
+            {
+                action(LayoutName)
+                {
+
+                }
+            }
         }
     }
 
@@ -441,6 +494,8 @@ report 60352 "Grouped Orders"
         TotalVATBaseAmountLbl = 'Total VAT base amount';
         TotalVATAmountLbl = 'Total VAT amount';
         TotalAmountIncludingVATLbl = 'Total amount including VAT';
+        PageLbl = 'Page';
+        TotalsLbl = 'Totals';
     }
 
     trigger OnInitReport()
@@ -476,4 +531,6 @@ report 60352 "Grouped Orders"
         TotalQuantity: Integer; //suma Quantity
         TotalDiscountAmount: Decimal; //suma Line Discount Amount
         TotalAmountExcludingVAT: Decimal; //suma de Amount
+        SelectedCustomer: Code[20];
+        SelectedDate: Date;
 }

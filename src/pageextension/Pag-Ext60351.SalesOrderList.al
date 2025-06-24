@@ -18,11 +18,10 @@ pageextension 60351 "Sales Order List" extends "Sales Order List"
                 trigger OnAction()
                 var
                     XmlParameters: Text;
-                    ReportMgmt: Codeunit "Report Mgmt";
                 begin
                     //ReportMgmt.Run();
-                    XmlParameters := Report.RunRequestPage(Report::"Grouped Orders");
-                    Report.Execute(Report::"Grouped Orders", XmlParameters);
+                    XmlParameters := Report.RunRequestPage(Report::"Grouped Orders V3");
+                    Report.Execute(Report::"Grouped Orders V3", XmlParameters);
                 end;
             }
         }

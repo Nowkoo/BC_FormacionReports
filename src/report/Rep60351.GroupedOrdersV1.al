@@ -1,6 +1,6 @@
 //https://harikiran-in-nav.blogspot.com/2020/01/why-and-when-do-we-need-to-use-integer.html
 
-report 60351 "Daily Customer Order Report"
+report 60351 "Grouped Orders V1"
 {
     Caption = 'Daily Customer Order Report';
     UsageCategory = ReportsAndAnalysis;
